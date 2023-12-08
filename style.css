@@ -144,7 +144,7 @@ body {
   gap: 10rem;
 }
 .section-event .card-holder .card {
-  max-width: 19rem;
+  max-width: 20rem;
   border-radius: 15px;
   background-color: var(--text);
   overflow: hidden;
