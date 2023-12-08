@@ -115,6 +115,10 @@ body {
 .section-header .hero .hero-text button:active {
   background-color: var(--secondary);
 }
+.section-header .hero .hero-text button a {
+  color: var(--text);
+  text-decoration: none;
+}
 
 .section-event {
   background-color: var(--secondary);
@@ -330,13 +334,13 @@ footer .copy-right {
 }
 @media (max-width: 767px) {
   .section-header, .section-about, .footer {
-    padding: 0 1rem;
+    padding: 0 2rem;
     padding-top: 1rem;
   }
 }
 @media (max-width: 625px) {
   .section-header {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
     padding-top: 1rem;
   }
   .section-header .logo-image-out {

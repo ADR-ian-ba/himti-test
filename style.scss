@@ -125,6 +125,10 @@ body {
                 &:active{
                     background-color: var(--secondary);
                 }
+                a{
+                    color: var(--text);
+                    text-decoration: none;
+                }
             }
 
         }
@@ -379,14 +383,14 @@ footer{
 
 @media (max-width: 767px) {
     .section-header,.section-about,.footer {
-        padding: 0 1rem; 
+        padding: 0 2rem; 
         padding-top: 1rem;
     }
 }
 
 @media (max-width: 625px) {
     .section-header {
-        padding: 0 .5rem; 
+        padding: 0 1.5rem; 
         padding-top: 1rem;
 
         .logo-image-out{
