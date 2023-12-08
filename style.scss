@@ -108,26 +108,28 @@ body {
                 font-size: 5vw;
             }
 
-            button{
+            a{
                 color: var(--text);
-                background-color: var(--secondary);
-                border: none;
-                font-size: 1.5rem;
-                padding: .5rem 1rem;
-                border-radius: 30px;
-                cursor: pointer;
-                transition: all .1s ease;
+                text-decoration: none;
 
-                &:hover{
-                    background-color: #c9858f;
-                }
-
-                &:active{
-                    background-color: var(--secondary);
-                }
-                a{
+                button{
                     color: var(--text);
-                    text-decoration: none;
+                    background-color: var(--secondary);
+                    border: none;
+                    font-size: 1.5rem;
+                    padding: .5rem 1rem;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    transition: all .1s ease;
+
+                    &:hover{
+                        background-color: #c9858f;
+                    }
+
+                    &:active{
+                        background-color: var(--secondary);
+                    }
+
                 }
             }
 

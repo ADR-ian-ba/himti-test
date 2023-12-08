@@ -99,7 +99,11 @@ body {
 .section-header .hero .hero-text h1 {
   font-size: 5vw;
 }
-.section-header .hero .hero-text button {
+.section-header .hero .hero-text a {
+  color: var(--text);
+  text-decoration: none;
+}
+.section-header .hero .hero-text a button {
   color: var(--text);
   background-color: var(--secondary);
   border: none;
@@ -109,15 +113,11 @@ body {
   cursor: pointer;
   transition: all 0.1s ease;
 }
-.section-header .hero .hero-text button:hover {
+.section-header .hero .hero-text a button:hover {
   background-color: #c9858f;
 }
-.section-header .hero .hero-text button:active {
+.section-header .hero .hero-text a button:active {
   background-color: var(--secondary);
-}
-.section-header .hero .hero-text button a {
-  color: var(--text);
-  text-decoration: none;
 }
 
 .section-event {
