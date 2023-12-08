@@ -385,7 +385,11 @@ footer .copy-right {
     text-align: center;
     font-size: 10rem;
   }
-  .hero .hero-text button {
+  .hero .hero-text a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .hero .hero-text a button {
     display: block;
     margin: 0 auto;
     margin-top: 2rem;

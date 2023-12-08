@@ -449,12 +449,18 @@ footer{
                 font-size: 10rem;
             }
 
-            button{
-                display: block;
-                margin: 0 auto;
-                margin-top: 2rem;
-                margin-bottom: 2rem;
+            a{
+                color: var(--text);
+                text-decoration: none;
+
+                button{
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
             }
+            
         }
     }
 
